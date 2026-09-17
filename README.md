@@ -26,3 +26,7 @@ Simplest free route is GitHub Pages:
 3. Tick "Enforce HTTPS" in the Pages settings once the certificate is issued.
 
 Cloudflare Pages works just as well: point the domain's nameservers at Cloudflare and attach the domain to the Pages project.
+
+## Open Graph card
+
+`assets/og.png` (1200 x 630) is rendered from `og-card.html` with headless Chrome. The meta tags point at thabhelo.github.io/pride for now. Swap them and the canonical link to prideduve.de once the domain is attached.
